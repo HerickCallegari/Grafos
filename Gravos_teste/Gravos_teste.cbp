@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Gravos_teste" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Gravos_teste" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Gravos_teste" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Biblioteca_Grafo/Cap3/Lista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/0_structs.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/10_buscarInfoPos.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/11_inverterLista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/13_unirListas.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/1_1_criarListaComTamanho.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/1_criarLista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/2_1_incluirInfoInicio.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/2_2_incluirInfoMeio.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/2_3_incluirInfoOrdenada.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/2_incluirInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/3_1_excluirInfoPos.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/3_excluirInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/4_1_obtemInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/4_contemInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/5_imprimirLista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/6_1_destruirListaNormal.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/6_2_destruirListaInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/6_destruirLista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/7_duplicarLista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/8_dividirLista.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Operacoes/9_buscarNohInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/TAD_ListaLinear.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap3/Utils.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/Fila.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesFila/0_structs.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesFila/1_criarFila.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesFila/2_enfileirarInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesFila/3_desenfileirarInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesFila/4_filaVazia.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesPilha/0_structs.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesPilha/1_criarPilha.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesPilha/2_empilharInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesPilha/3_desempilharInfo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesPilha/4_pilhaVazia.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/OperacoesPilha/6_copiarPilha.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/Pilha.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/TAD_Fila.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/TAD_Pilha.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap4/Utils.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Grafo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/0_structs.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/10_getCaminho.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/11_buscarVerticesIncidentes.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/14_buscarVertice.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/15_existeCaminhoHamiltoniano.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/16_existeCaminhoEuleriano.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/17_duplicaGrafo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/1_criarGrafo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/2_incluirVertice.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/3_incluirAresta.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/4_mostrarGrafo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/5_excluirVertice.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/6_excluirAresta.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/7_buscaProfundidade.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/8_buscaAmplitude.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/9_existeCaminho.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/TAD_Grafo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Utils.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

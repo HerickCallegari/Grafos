@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1724269435 source:c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\gravos_teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	"../Biblioteca_Grafo/Cap6/Grafo.h"
+	"../Biblioteca_Grafo/Cap3/Utils.h"
+
+1724263739 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\grafo.h
+	"../Cap3/Lista.h"
+	"../Cap4/Pilha.h"
+	"TAD_Grafo.h"
+	"Operacoes/0_structs.h"
+	"Operacoes/1_criarGrafo.h"
+	"Operacoes/2_incluirVertice.h"
+	"Operacoes/3_incluirAresta.h"
+	"Operacoes/4_mostrarGrafo.h"
+	"Operacoes/5_excluirVertice.h"
+	"Operacoes/6_excluirAresta.h"
+	"Operacoes/7_buscaProfundidade.h"
+	"Operacoes/8_buscaAmplitude.h"
+	"Operacoes/9_existeCaminho.h"
+	"Operacoes/10_getCaminho.h"
+	"Operacoes/11_buscarVerticesIncidentes.h"
+	"Operacoes/13_subGrafo.h"
+	"Operacoes/14_buscarVertice.h"
+	"Operacoes/15_existeCaminhoHamiltoniano.h"
+	"Operacoes/16_existeCaminhoEuleriano.h"
+	"Operacoes/17_duplicaGrafo.h"
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\lista.h
+	"TAD_ListaLinear.h"
+	"Operacoes/0_structs.h"
+	"Operacoes/1_criarLista.h"
+	"Operacoes/1_1_criarListaComTamanho.h"
+	"Operacoes/2_incluirInfo.h"
+	"Operacoes/2_1_incluirInfoInicio.h"
+	"Operacoes/2_2_incluirInfoMeio.h"
+	"Operacoes/2_3_incluirInfoOrdenada.h"
+	"Operacoes/3_excluirInfo.h"
+	"Operacoes/3_1_excluirInfoPos.h"
+	"Operacoes/4_contemInfo.h"
+	"Operacoes/5_imprimirLista.h"
+	"Operacoes/6_destruirLista.h"
+	"Operacoes/7_duplicarLista.h"
+	"Operacoes/8_dividirLista.h"
+	"Operacoes/13_unirListas.h"
+	"Operacoes/9_buscarNohInfo.h"
+	"Operacoes/10_buscarInfoPos.h"
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\tad_listalinear.h
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\0_structs.h
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\1_criarlista.h
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\1_1_criarlistacomtamanho.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\2_incluirinfo.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\2_1_incluirinfoinicio.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\2_2_incluirinfomeio.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\2_3_incluirinfoordenada.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\3_excluirinfo.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\3_1_excluirinfopos.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\4_conteminfo.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\5_imprimirlista.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\6_destruirlista.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\7_duplicarlista.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\8_dividirlista.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\13_unirlistas.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\9_buscarnohinfo.h
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\operacoes\10_buscarinfopos.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\pilha.h
+	"TAD_Pilha.h"
+	"../Cap3/Lista.h"
+	"OperacoesPilha/0_structs.h"
+	"OperacoesPilha/1_criarPilha.h"
+	"OperacoesPilha/2_empilharInfo.h"
+	"OperacoesPilha/3_desempilharInfo.h"
+	"OperacoesPilha/4_pilhaVazia.h"
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\tad_pilha.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\operacoespilha\0_structs.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\operacoespilha\1_criarpilha.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\operacoespilha\2_empilharinfo.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\operacoespilha\3_desempilharinfo.h
+
+1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap4\operacoespilha\4_pilhavazia.h
+
+1724265454 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\tad_grafo.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\0_structs.h
+
+1724193332 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\1_criargrafo.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\2_incluirvertice.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\3_incluiraresta.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\4_mostrargrafo.h
+
+1724193377 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\5_excluirvertice.h
+	"../../Cap3/Utils.h"
+
+1724182610 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\6_excluiraresta.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\7_buscaprofundidade.h
+
+1724180198 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\9_existecaminho.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\10_getcaminho.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\11_buscarverticesincidentes.h
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\14_buscarvertice.h
+
+1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap3\utils.h
+	<stdio.h>
+
+1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\utils.h
+	<stdio.h>
+
+1724198367 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\8_buscaamplitude.h
+
+1724265995 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\15_existecaminhohamiltoniano.h
+
+1724267190 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\16_existecaminhoeuleriano.h
+
+1724265673 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\17_duplicagrafo.h
+
