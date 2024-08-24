@@ -23,6 +23,10 @@ int existeCaminhoEuleriano (pDGrafo grafo, FuncaoComparacao pfc) {
     if ( grafo == NULL || grafo->listaVertices == NULL )
         return 0;
 
+     // Verifica se o Grafo é fortemente conexo
+    if ( grafoConexo( grafo, pfc) == 0)
+        return 0;
+
     pNoh aux = grafo->listaVertices->primeiro;
     pVertice vert;
 
@@ -35,7 +39,6 @@ int existeCaminhoEuleriano (pDGrafo grafo, FuncaoComparacao pfc) {
 
         aux = aux->prox;
     }
-
 
     return 1;
 }
