@@ -12,17 +12,19 @@ int grafoConexo ( pDGrafo grafo, FuncaoComparacao pfc ) {
     aux2 = aux;
 
      // Vai percorrer o grafo testando se um noh consegue chegar em qualquer outro
-    while ( aux != NULL  && aux2 != NULL) {
+    while ( aux != NULL ) {
         vert = (pVertice) aux->info;
         aux2 = grafo->listaVertices->primeiro;
+        //printf("\nVertice origem: %d\n", *(int*)vert->info);
 
         while ( aux2 != NULL ) {
             vert2 = (pVertice) aux2->info;
+            //printf("\nVertice destino: %d", *(int*)vert2->info);
 
-            if ( vert == NULL || vert2 == NULL )
+            if ( vert == NULL )
                 return 0;
 
-            if ( existeCaminho(grafo, vert->info, vert2, pfc) == 0)
+            if ( existeCaminho(grafo, vert->info, vert2->info, pfc) == 0)
                 return 0;
 
             aux2 = aux2->prox;

@@ -10,11 +10,11 @@
     para "entrar" no Vertice.
  */
 
-
+ //
 pDGrafo Diferenca ( pDGrafo grafo, pVertice vert, FuncaoComparacao pfc ) {
     int entrada = buscarVerticesIncidentes(grafo, vert, pfc)->quantidade;
     int saida   = vert->listaAdjacencias->quantidade;
-
+    printf("\nDiferenca: %d\n", entrada - saida);
     return entrada - saida;
 }
 
@@ -22,10 +22,10 @@ int existeCaminhoEuleriano (pDGrafo grafo, FuncaoComparacao pfc) {
 
     if ( grafo == NULL || grafo->listaVertices == NULL )
         return 0;
-
      // Verifica se o Grafo é fortemente conexo
     if ( grafoConexo( grafo, pfc) == 0)
         return 0;
+    printf("aqui");
 
     pNoh aux = grafo->listaVertices->primeiro;
     pVertice vert;

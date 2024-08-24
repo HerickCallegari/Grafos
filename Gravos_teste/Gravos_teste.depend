@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1724505725 source:c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\gravos_teste\main.c
+1724508136 source:c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\gravos_teste\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdlib.h>
@@ -126,7 +126,7 @@
 
 1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\7_buscaprofundidade.h
 
-1724180198 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\9_existecaminho.h
+1724507301 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\9_existecaminho.h
 
 1723576053 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\10_getcaminho.h
 
@@ -144,11 +144,11 @@
 
 1724265995 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\15_existecaminhohamiltoniano.h
 
-1724504299 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\16_existecaminhoeuleriano.h
+1724507046 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\16_existecaminhoeuleriano.h
 
 1724368677 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\17_duplicagrafo.h
 
 1724353025 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\18_quantidadedearestas.h
 
-1724505889 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\19_grafofortementeconectado.h
+1724507770 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\19_grafofortementeconectado.h
 
