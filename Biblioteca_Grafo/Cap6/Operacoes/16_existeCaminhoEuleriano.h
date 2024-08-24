@@ -42,9 +42,4 @@ int existeCaminhoEuleriano (pDGrafo grafo, FuncaoComparacao pfc) {
     return 1;
 }
 
-
-
-
-
-
 #endif
