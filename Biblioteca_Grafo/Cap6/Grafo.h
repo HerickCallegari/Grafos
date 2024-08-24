@@ -40,4 +40,6 @@
 
 #include "Operacoes/18_quantidadeDeArestas.h"
 
+#include "Operacoes/19_grafoFortementeConectado.h"
+
 #endif
