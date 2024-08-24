@@ -8,22 +8,22 @@
 /* implementacao de grafo */
 #include "TAD_Grafo.h"
 
-#include "Operacoes/0_structs.h"
+#include "Operacoes/00_structs.h"
 
-#include "Operacoes/1_criarGrafo.h"
+#include "Operacoes/01_criarGrafo.h"
 
-#include "Operacoes/2_incluirVertice.h"
+#include "Operacoes/02_incluirVertice.h"
 
-#include "Operacoes/3_incluirAresta.h"
+#include "Operacoes/03_incluirAresta.h"
 
-#include "Operacoes/4_mostrarGrafo.h"
+#include "Operacoes/04_mostrarGrafo.h"
 
-#include "Operacoes/5_excluirVertice.h"
-#include "Operacoes/6_excluirAresta.h"
-#include "Operacoes/7_buscaProfundidade.h"
-#include "Operacoes/8_buscaAmplitude.h"
+#include "Operacoes/05_excluirVertice.h"
+#include "Operacoes/06_excluirAresta.h"
+#include "Operacoes/07_buscaProfundidade.h"
+#include "Operacoes/08_buscaAmplitude.h"
 
-#include "Operacoes/9_existeCaminho.h"
+#include "Operacoes/09_existeCaminho.h"
 #include "Operacoes/10_getCaminho.h"
 #include "Operacoes/11_buscarVerticesIncidentes.h"
 

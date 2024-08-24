@@ -56,12 +56,11 @@ pDGrafo grafoPadrao() {
     printf("Escolha o tipo de grafo:\n");
     printf("1. Grafo Inicial\n");
     printf("2. Grafo Normal\n");
-    printf("3. Grafo nao Euleriano \n");
-    printf("4. Grafo nao  Euleriano \n");
+    printf("3. Grafo nao Euleriano erro\n");
+    printf("4. Grafo Euleriano \n");
     printf("5. Grafo nao  Euleriano \n");
     printf("6. Grafo Euleriano \n");
     printf("7. Grafo Euleriano \n");
-    printf("8. Grafo Euleriano \n");
     scanf ("%d", &tg);
     if ( tg == 1) {
             vertices = malloc(5 * sizeof(int));
@@ -173,23 +172,7 @@ pDGrafo grafoPadrao() {
         incluirAresta(grafo, &vertices[1], &vertices[2], comparaVertice); // Aresta (2, 3)
         incluirAresta(grafo, &vertices[5], &vertices[0], comparaVertice); // Aresta (6, 1)
         incluirAresta(grafo, &vertices[3], &vertices[5], comparaVertice); // Aresta (4, 6)
-    } else if ( tg == 6) {
-        vertices = malloc(4 * sizeof(int));
-        vertices[0] = 1;
-        vertices[1] = 2;
-        vertices[2] = 3;
-        vertices[3] = 4;
-
-        incluirVertice(grafo, &vertices[0], comparaVertice);
-        incluirVertice(grafo, &vertices[1], comparaVertice);
-        incluirVertice(grafo, &vertices[2], comparaVertice);
-        incluirVertice(grafo, &vertices[3], comparaVertice);
-
-        incluirAresta(grafo, &vertices[0], &vertices[1], comparaVertice); // Aresta (1, 2)
-        incluirAresta(grafo, &vertices[1], &vertices[2], comparaVertice); // Aresta (2, 3)
-        incluirAresta(grafo, &vertices[2], &vertices[3], comparaVertice); // Aresta (3, 4)
-        incluirAresta(grafo, &vertices[3], &vertices[0], comparaVertice); // Aresta (4, 1)
-    }else if ( tg == 7 ) {
+    }else if ( tg == 6 ) {
         vertices = malloc(4 * sizeof(int));
         vertices[0] = 1;
         vertices[1] = 2;
@@ -206,7 +189,7 @@ pDGrafo grafoPadrao() {
         incluirAresta(grafo, &vertices[2], &vertices[3], comparaVertice); // Aresta (3, 4)
         incluirAresta(grafo, &vertices[3], &vertices[0], comparaVertice); // Aresta (4, 1)
         incluirAresta(grafo, &vertices[1], &vertices[3], comparaVertice); // Aresta (2, 4)
-    }else if ( tg == 8 ) {
+    }else if ( tg == 7 ) {
         vertices = malloc(4 * sizeof(int));
         vertices[0] = 1;
         vertices[1] = 2;

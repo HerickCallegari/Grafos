@@ -26,6 +26,7 @@ int grafoConexo ( pDGrafo grafo, FuncaoComparacao pfc ) {
 
             if ( existeCaminho(grafo, vert->info, vert2->info, pfc) == 0)
                 return 0;
+            printf("\ncarros");
 
             aux2 = aux2->prox;
         }
