@@ -79,6 +79,7 @@
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/15_existeCaminhoHamiltoniano.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/16_existeCaminhoEuleriano.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/17_duplicaGrafo.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/18_quantidadeDeArestas.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/1_criarGrafo.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/2_incluirVertice.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/3_incluirAresta.h" />

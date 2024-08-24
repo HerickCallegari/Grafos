@@ -22,7 +22,7 @@ pDGrafo    criarGrafo();
 void       incluirVertice   (pDGrafo, void *, FuncaoComparacao);
 void       incluirAresta    (pDGrafo, void*, void*, FuncaoComparacao);
 
-int        excluirVertice   (pDGrafo, void*, FuncaoComparacao, FuncaoImpressao);
+int        excluirVertice   (pDGrafo, void*, FuncaoComparacao);
 int        excluirAresta    (pDGrafo, void*, void*, FuncaoComparacao);
 
 pDGrafo    duplicarGrafo(pDGrafo, FuncaoComparacao);

@@ -38,4 +38,6 @@
 
 #include "Operacoes/17_duplicaGrafo.h"
 
+#include "Operacoes/18_quantidadeDeArestas.h"
+
 #endif

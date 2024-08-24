@@ -75,7 +75,7 @@ int existeCaminhoEuleriano (pDGrafo grafo, FuncaoComparacao pfc) {
             return 0;
 
         int saidaA   = auxVert->listaAdjacencias->quantidade;
-        int entradaA = buscarVerticesIncidentes(grafo, inicial, pfc)->quantidade + 1;
+        int entradaA = buscarVerticesIncidentes(grafo, inicial, pfc)->quantidade;
 
         printf("Vertice: %d Entrada: %d Saida: %d\n", *(int*)auxVert->info, entradaA, saidaA);
         diferenca = saidaA - entradaA;

@@ -11,7 +11,6 @@ pDGrafo duplicarGrafo(pDGrafo grafo, FuncaoComparacao pfc) {
     pNoh aux = grafo->listaVertices->primeiro;
     pVertice auxVertice;
     pVertice auxAresta;
-    printf("aqui");
      // Adciona todos os vertices do grafo
     for( int i = 0; i < grafo->listaVertices->quantidade; i++ ) {
 

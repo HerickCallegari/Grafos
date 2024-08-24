@@ -12,13 +12,7 @@ int excluirAresta(pDGrafo grafo, void *vOrig, void *vDest, FuncaoComparacao fc){
       return 0;
     }
 
-    if ( buscarNohInfo(vOrigem->listaAdjacencias, vDestino, fc) != NULL )
-        excluirInfo(vOrigem->listaAdjacencias, vDestino, fc);
-    else
-        return 0;
-
-    return 1;
-
+    return excluirInfo(vOrigem->listaAdjacencias, vDestino, fc);
 }
 
 #endif

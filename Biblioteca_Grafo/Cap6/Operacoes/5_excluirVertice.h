@@ -3,7 +3,7 @@
 #define EXCLUIR_VERTICE_H
 
 /* --------------------------- */
-int excluirVertice(pDGrafo grafo, void* info, FuncaoComparacao fc, FuncaoImpressao fi){
+int excluirVertice(pDGrafo grafo, void* info, FuncaoComparacao fc){
 
     pVertice verticeInfo = buscarVertice(grafo, info, fc);
 
