@@ -11,10 +11,10 @@
  */
 
  //
-pDGrafo Diferenca ( pDGrafo grafo, pVertice vert, FuncaoComparacao pfc ) {
+int Diferenca ( pDGrafo grafo, pVertice vert, FuncaoComparacao pfc ) {
     int entrada = buscarVerticesIncidentes(grafo, vert, pfc)->quantidade;
     int saida   = vert->listaAdjacencias->quantidade;
-    printf("\nDiferenca: %d\n", entrada - saida);
+    //printf("\nVertice: %d Diferenca: %d\n", *(int*)vert->info,entrada - saida);
     return entrada - saida;
 }
 
@@ -25,7 +25,6 @@ int existeCaminhoEuleriano (pDGrafo grafo, FuncaoComparacao pfc) {
      // Verifica se o Grafo é fortemente conexo
     if ( grafoConexo( grafo, pfc) == 0)
         return 0;
-    printf("aqui");
 
     pNoh aux = grafo->listaVertices->primeiro;
     pVertice vert;
