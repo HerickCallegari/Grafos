@@ -7,14 +7,9 @@
 			<Cursor1 position="882" topLine="11" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\6_2_destruirListaInfo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap6\Grafo.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="306" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\4_mostrarGrafo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="24" topLine="0" />
+			<Cursor1 position="1009" topLine="17" />
 		</Cursor>
 	</File>
 	<File name="..\Biblioteca_Grafo\Cap6\Utils.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -22,69 +17,19 @@
 			<Cursor1 position="0" topLine="42" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\1_criarGrafo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\6_2_destruirListaInfo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="189" topLine="0" />
+			<Cursor1 position="306" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\8_buscaAmplitude.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\00_structs.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1370" topLine="26" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\18_quantidadeDeArestas.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\09_existeCaminho.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="325" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\14_buscarVertice.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="142" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\4_contemInfo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="52" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\10_getCaminho.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="397" topLine="37" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\6_excluirAresta.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="93" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Grafo.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1009" topLine="17" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\5_excluirVertice.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="675" topLine="2" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\9_existeCaminho.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1609" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\2_incluirInfo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="237" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap3\TAD_ListaLinear.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1782" topLine="25" />
-		</Cursor>
-	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\16_existeCaminhoEuleriano.h" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2996" topLine="62" />
+			<Cursor1 position="1318" topLine="9" />
 		</Cursor>
 	</File>
 	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\6_destruirLista.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -92,29 +37,39 @@
 			<Cursor1 position="191" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\15_existeCaminhoHamiltoniano.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\16_existeCaminhoEuleriano.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="152" topLine="0" />
+			<Cursor1 position="1358" topLine="18" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\17_duplicaGrafo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\2_incluirInfo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="60" topLine="36" />
+			<Cursor1 position="237" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\11_buscarVerticesIncidentes.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap3\Operacoes\4_contemInfo.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="121" topLine="0" />
+			<Cursor1 position="52" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\19_grafoFortementeConectado.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="361" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6860" topLine="170" />
+			<Cursor1 position="7847" topLine="310" />
 		</Cursor>
 	</File>
-	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\0_structs.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Biblioteca_Grafo\Cap3\TAD_ListaLinear.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="283" topLine="0" />
+			<Cursor1 position="1782" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="..\Biblioteca_Grafo\Cap6\Operacoes\15_existeCaminhoHamiltoniano.h" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2260" topLine="54" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -187,7 +187,7 @@ void main(){
         mostrarGrafo(grafo, imprimeVertice);
         printf("----------------------------");
 
-        printf("\n 0  - Criar grafo \n");
+        printf("\n  0  - Criar grafo \n");
         printf("  1  - Incluir Vertice \n");
         printf("  2  - Incluir Aresta \n");
         printf("  3  - Excluir Vertice \n");
@@ -197,8 +197,8 @@ void main(){
         printf("  7  - Busca em amplitude \n");
         printf("  8  - Existe caminho?  \n");
         printf("  9  - Encontra caminho \n");
-        printf("  10  - Caminho Euleriano \n");
-        printf("  11  - Caminho Hamiltoniano \n");
+        printf(" 10  - Caminho Euleriano \n");
+        printf(" 11  - Caminho Hamiltoniano \n");
         printf("99 - Sair \n");
 
         scanf ("%d", &opcao);
