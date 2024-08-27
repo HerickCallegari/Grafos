@@ -8,11 +8,11 @@ void grafoBipartidoRecursivo( pDGrafo grafo, pVertice vert, pDLista grupoA, pDLi
     if ( vert == NULL )
         return;
 
+
+     // Inclui o vertice em analise no grupo correto
     if ( buscarNohInfo(grupoA, vert, fc) == NULL && buscarNohInfo(grupoB, vert, fc) == NULL) {
         incluirInfo(grupoA, vert);
     }
-
-
 
     pDLista Conectados = criarLista();
 
@@ -29,7 +29,7 @@ void grafoBipartidoRecursivo( pDGrafo grafo, pVertice vert, pDLista grupoA, pDLi
         aux = aux->prox;
      }
      aux = buscarVerticesIncidentes(grafo, vert, fc)->primeiro;
-
+      // Popula a lista de vertices conectados ao vertice em analise
      while ( aux != NULL ) {
         auxVert = (pVertice) aux->info;
         if ( buscarNohInfo(grupoA, vert, fc) == NULL && buscarNohInfo(grupoB, vert, fc) == NULL)
@@ -39,6 +39,8 @@ void grafoBipartidoRecursivo( pDGrafo grafo, pVertice vert, pDLista grupoA, pDLi
 
     aux = Conectados->primeiro;
 
+     // Coloca Vertices conectados ao vertice em analise no respetivo
+     // grupo e entao chama novamente a funcao recursiva invertendo a ordem dos grupos
     while ( aux != NULL ) {
     auxVert = (pVertice) aux->info;
         if ( buscarNohInfo(grupoA, auxVert, fc) == NULL && buscarNohInfo(grupoB, auxVert, fc) == NULL) {
@@ -59,7 +61,8 @@ int grafoBipartido( pDGrafo grafo, FuncaoComparacao fc, pDLista grupoA, pDLista 
 
     pNoh aux = grafo->listaVertices->primeiro;
     pVertice vert;
-
+     // Chama a funcao para todos os vertices do grafo, pois é possivel
+     // que algum vertice nao seja acessivel apenas atraves das adjacencias
     while ( aux != NULL ) {
         vert = (pVertice) aux->info;
 
@@ -71,6 +74,7 @@ int grafoBipartido( pDGrafo grafo, FuncaoComparacao fc, pDLista grupoA, pDLista 
         aux = aux->prox;
     }
 
+     // Garante que todos os vertices pertencem a pelo menos 1 grupo
     while ( aux != NULL ) {
         vert = (pVertice) aux->info;
 
@@ -85,6 +89,7 @@ int grafoBipartido( pDGrafo grafo, FuncaoComparacao fc, pDLista grupoA, pDLista 
     pNoh aux2;
     pVertice vert2;
 
+     // Verifica se nenhum Vertice do grupo A esta conectado entre si
     while ( aux != NULL ) {
         vert = (pVertice) aux->info;
 
@@ -102,6 +107,7 @@ int grafoBipartido( pDGrafo grafo, FuncaoComparacao fc, pDLista grupoA, pDLista 
         aux = aux->prox;
     }
 
+     // Verifica se nenhum Vertice do grupo B esta conectado entre si
     aux = grupoB->primeiro;
     while ( aux != NULL ) {
         vert = (pVertice) aux->info;
