@@ -41,5 +41,6 @@
 #include "Operacoes/18_quantidadeDeArestas.h"
 
 #include "Operacoes/19_grafoFortementeConectado.h"
+#include "Operacoes/20_grafoBipartido.h"
 
 #endif

@@ -90,6 +90,7 @@
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/17_duplicaGrafo.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/18_quantidadeDeArestas.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/19_grafoFortementeConectado.h" />
+		<Unit filename="../Biblioteca_Grafo/Cap6/Operacoes/20_grafoBipartido.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/TAD_Grafo.h" />
 		<Unit filename="../Biblioteca_Grafo/Cap6/Utils.h" />
 		<Unit filename="main.c">

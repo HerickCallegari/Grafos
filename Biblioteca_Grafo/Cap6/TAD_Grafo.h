@@ -48,7 +48,7 @@ int        grafoConexo(pDGrafo, FuncaoComparacao);
 // Um grafo G é bipartido se seus vértices podem ser separados
 // em dois conjuntos independentes de tal forma que todas
 // arestas do grafo conectam vértices de conjuntos distintos.
-int        grafoBipartido(pDGrafo, FuncaoComparacao);
+int        grafoBipartido(pDGrafo, FuncaoComparacao, pDLista, pDLista);
 
 int        existeCaminhoHamiltoniano (pDGrafo, FuncaoComparacao);
 int        existeCaminhoEuleriano    (pDGrafo, FuncaoComparacao); // pontes de Königsberg

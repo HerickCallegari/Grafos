@@ -167,6 +167,42 @@ pDGrafo grafoPadrao() {
         incluirAresta(grafo, &vertices[4], &vertices[0], comparaVertice); // Aresta (5, 1)
         incluirAresta(grafo, &vertices[4], &vertices[1], comparaVertice); // Aresta (5, 2)
         incluirAresta(grafo, &vertices[4], &vertices[2], comparaVertice); // Aresta (5, 3)
+    }else if ( tg == 6 ) {
+        int *verticesU = malloc(5 * sizeof(int));  // Conjunto U
+        int *verticesV = malloc(5 * sizeof(int));  // Conjunto V
+
+        // Inicializa os vértices para U
+        verticesU[0] = 1;
+        verticesU[1] = 2;
+        verticesU[2] = 3;
+        verticesU[3] = 4;
+        verticesU[4] = 5;
+
+        // Inicializa os vértices para V
+        verticesV[0] = 6;  // Cópia do vértice 1
+        verticesV[1] = 7;  // Cópia do vértice 2
+        verticesV[2] = 8;  // Cópia do vértice 3
+        verticesV[3] = 9;  // Cópia do vértice 4
+        verticesV[4] = 10; // Cópia do vértice 5
+
+        // Adiciona os vértices do conjunto U
+        for (int i = 0; i < 5; i++) {
+            incluirVertice(grafo, &verticesU[i], comparaVertice);
+        }
+
+        // Adiciona os vértices do conjunto V
+        for (int i = 0; i < 5; i++) {
+            incluirVertice(grafo, &verticesV[i], comparaVertice);
+        }
+
+        // Adiciona as arestas entre U e V
+        incluirAresta(grafo, &verticesU[0], &verticesV[1], comparaVertice); // Aresta (1 -> 7)
+        incluirAresta(grafo, &verticesU[1], &verticesV[2], comparaVertice); // Aresta (2 -> 8)
+        incluirAresta(grafo, &verticesU[2], &verticesV[3], comparaVertice); // Aresta (3 -> 9)
+        incluirAresta(grafo, &verticesU[3], &verticesV[4], comparaVertice); // Aresta (4 -> 10)
+        incluirAresta(grafo, &verticesU[4], &verticesV[0], comparaVertice); // Aresta (5 -> 6)
+        incluirAresta(grafo, &verticesU[4], &verticesV[1], comparaVertice); // Aresta (5 -> 7)
+        incluirAresta(grafo, &verticesU[4], &verticesV[2], comparaVertice); // Aresta (5 -> 8)
     }else
         printf("Nenhum grafo selecionado!");
     return grafo;
@@ -175,6 +211,8 @@ pDGrafo grafoPadrao() {
 /* ----------------------------- */
 void main(){
     pDGrafo grafoNovo;
+    pDLista grupoA = criarLista();
+    pDLista grupoB = criarLista();
 
     int opcao, vOrigem, vDestino;
     int *pv;
@@ -199,6 +237,8 @@ void main(){
         printf("  9  - Encontra caminho \n");
         printf(" 10  - Caminho Euleriano \n");
         printf(" 11  - Caminho Hamiltoniano \n");
+        printf(" 12  - Grafo Bipartido. \n");
+        printf(" 13  - Grago Conexo. \n");
         printf("99 - Sair \n");
 
         scanf ("%d", &opcao);
@@ -326,6 +366,26 @@ void main(){
                 printf("Nao Existe caminho Hamiltoniano.");
 
             getch();
+        case 12:
+            destruirLista(grupoA);
+            destruirLista(grupoB);
+            if ( grafoBipartido(grafo, comparaVertice, grupoA, grupoB) == 1)
+                printf("\nGrafo Bipartido.");
+            else
+                printf("\nGrafo nao e Bipartido.");
+
+            printf("\nGrupo A:");
+            imprimirLista(grupoA, imprimeVerticeSemAdjacencias);
+            printf("\nGrupo B:");
+            imprimirLista(grupoB, imprimeVerticeSemAdjacencias);
+
+            getch();
+            break;
+        case 13:
+            if ( grafoConexo(grafo, comparaVertice) == 1)
+                printf("O grafo e conexo.");
+            else
+                printf("O grafo nao e conexo.");
             break;
         }
 

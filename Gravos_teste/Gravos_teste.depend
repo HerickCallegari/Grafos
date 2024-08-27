@@ -173,14 +173,14 @@
 
 1724518984 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_1\biblioteca_grafo\cap6\operacoes\09_existecaminho.h
 
-1724544439 source:c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\gravos_teste\main.c
+1724787443 source:c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\gravos_teste\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdlib.h>
 	"../Biblioteca_Grafo/Cap6/Grafo.h"
 	"../Biblioteca_Grafo/Cap3/Utils.h"
 
-1724512488 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\grafo.h
+1724556625 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\grafo.h
 	"../Cap3/Lista.h"
 	"../Cap4/Pilha.h"
 	"TAD_Grafo.h"
@@ -203,6 +203,7 @@
 	"Operacoes/17_duplicaGrafo.h"
 	"Operacoes/18_quantidadeDeArestas.h"
 	"Operacoes/19_grafoFortementeConectado.h"
+	"Operacoes/20_grafoBipartido.h"
 
 1723576051 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap3\lista.h
 	"TAD_ListaLinear.h"
@@ -281,7 +282,7 @@
 
 1723576052 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap4\operacoespilha\4_pilhavazia.h
 
-1724374350 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\tad_grafo.h
+1724798622 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\tad_grafo.h
 
 1724278206 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\operacoes\00_structs.h
 
@@ -322,4 +323,6 @@
 1724353025 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\operacoes\18_quantidadedearestas.h
 
 1724518553 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\operacoes\19_grafofortementeconectado.h
+
+1724798631 c:\users\zenop\onedrive\햞ea de trabalho\grafos\atividade_2\biblioteca_grafo\cap6\operacoes\20_grafobipartido.h
 
