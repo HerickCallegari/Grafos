@@ -59,6 +59,8 @@ pDGrafo grafoPadrao() {
     printf("3. Grafo nao Euleriano \n");
     printf("4. Grafo Euleriano \n");
     printf("5. Grafo Hamiltoniano \n");
+    printf("6. Grafo Bipartido \n");
+    printf("7. Grafo Colorido \n");
     scanf ("%d", &tg);
     if ( tg == 1) {
             vertices = malloc(5 * sizeof(int));
@@ -203,7 +205,31 @@ pDGrafo grafoPadrao() {
         incluirAresta(grafo, &verticesU[4], &verticesV[0], comparaVertice); // Aresta (5 -> 6)
         incluirAresta(grafo, &verticesU[4], &verticesV[1], comparaVertice); // Aresta (5 -> 7)
         incluirAresta(grafo, &verticesU[4], &verticesV[2], comparaVertice); // Aresta (5 -> 8)
-    }else
+    }else if ( tg == 7) {
+        int* vertices = malloc(6 * sizeof(int));
+        vertices[0] = 1; // A
+        vertices[1] = 2; // B
+        vertices[2] = 3; // C
+        vertices[3] = 4; // D
+        vertices[4] = 5; // E
+        vertices[5] = 6; // F
+
+        incluirVertice(grafo, &vertices[0], comparaVertice);
+        incluirVertice(grafo, &vertices[1], comparaVertice);
+        incluirVertice(grafo, &vertices[2], comparaVertice);
+        incluirVertice(grafo, &vertices[3], comparaVertice);
+        incluirVertice(grafo, &vertices[4], comparaVertice);
+        incluirVertice(grafo, &vertices[5], comparaVertice);
+
+        incluirAresta(grafo, &vertices[0], &vertices[1], comparaVertice); // A -> B
+        incluirAresta(grafo, &vertices[0], &vertices[2], comparaVertice); // A -> C
+        incluirAresta(grafo, &vertices[1], &vertices[3], comparaVertice); // B -> D
+        incluirAresta(grafo, &vertices[2], &vertices[3], comparaVertice); // C -> D
+        incluirAresta(grafo, &vertices[3], &vertices[4], comparaVertice); // D -> E
+        incluirAresta(grafo, &vertices[4], &vertices[5], comparaVertice); // E -> F
+        incluirAresta(grafo, &vertices[5], &vertices[0], comparaVertice); // F -> A (ciclo)
+    }
+
         printf("Nenhum grafo selecionado!");
     return grafo;
 }
@@ -239,6 +265,8 @@ void main(){
         printf(" 11  - Caminho Hamiltoniano \n");
         printf(" 12  - Grafo Bipartido. \n");
         printf(" 13  - Grago Conexo. \n");
+        printf(" 14  - Grago Cores. \n");
+        printf(" 15  - Grago Emparelhados. \n");
         printf("99 - Sair \n");
 
         scanf ("%d", &opcao);
@@ -386,6 +414,20 @@ void main(){
                 printf("O grafo e conexo.");
             else
                 printf("O grafo nao e conexo.");
+
+            getch();
+            break;
+        case 14:
+            printf("Quantidade de Cores necessarias: %d", coloracao(grafo, comparaVertice));
+            getch();
+            break;
+        case 15:
+            if ( grafoConexo(grafo, comparaVertice) == 1)
+                printf("O grafo e conexo.");
+            else
+                printf("O grafo nao e conexo.");
+
+            getch();
             break;
         }
 

@@ -43,4 +43,6 @@
 #include "Operacoes/19_grafoFortementeConectado.h"
 #include "Operacoes/20_grafoBipartido.h"
 
+#include "Operacoes/21_coloracao.h"
+
 #endif

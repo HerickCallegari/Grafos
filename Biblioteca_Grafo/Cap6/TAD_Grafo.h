@@ -55,7 +55,7 @@ int        existeCaminhoEuleriano    (pDGrafo, FuncaoComparacao); // pontes de K
 
 // Uma coloração de um grafo é válida se as duas pontas de cada aresta
 // têm cores diferentes.
-int        coloracao(pDGrafo);
+int        coloracao(pDGrafo, FuncaoComparacao);
 
 // Um emparelhamento (= matching) num grafo não-dirigido G é um
 // conjunto M de arestas dotado da seguinte propriedade:
